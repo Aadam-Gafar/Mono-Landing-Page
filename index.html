@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mono is a pair of distraction-free tools for local video libraries and quieter YouTube browsing.">
+  <meta property="og:title" content="Mono">
+  <meta property="og:description" content="Distraction-free desktop and browser tools for people who have things to do.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://monoapp.uk">
+  <title>Mono - Distraction-free tools</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="art/icon.svg">
+</head>
+
+<body>
+  <header class="site-header" aria-label="Site header">
+    <a class="brand" aria-label="Mono home">
+      <img src="art/logo_dark_text.svg" alt="Mono" width="124" height="36">
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Mono, distraction-free software</h1>
+        <p class="hero-text">Reclaim your time</p>
+      </div>
+      <img class="hero-art" src="art/mono.svg" alt="" width="320" height="320" aria-hidden="true">
+    </section>
+
+    <section id="desktop" class="product-section" aria-labelledby="desktop-title">
+      <div class="section-label">01 / Desktop App</div>
+      <div class="product-grid product-grid-visual-first">
+        <div class="product-copy">
+          <p class="eyebrow">Local-first video library</p>
+          <h2 id="desktop-title">Mono for Desktop</h2>
+          <p>
+            Organise and watch videos stored on your own machine. Import source folders, build a virtual library without moving files on disk, add descriptions and tags, search across your collection, and play videos in-app.
+          </p>
+          <ul class="feature-list">
+            <li>Keeps your video library on your own computer.</li>
+            <li>Organise videos with folders, tags, notes, and search.</li>
+            <li>Pick up where you left off with watch history and saved progress.</li>
+          </ul>
+          <a class="download-link product-download" href="https://github.com/Aadam-Gafar/Mono-Public-Dist/releases/download/v1.0.0/Mono.Video.Library_1.0.0_x64_en-US.msi">Download for Windows</a>
+        </div>
+        <figure class="product-visual">
+          <img src="art/images/splash1.png" alt="Mono for Desktop showing a clean local video library" width="1600" height="1000" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section id="youtube" class="product-section product-section-alt" aria-labelledby="youtube-title">
+      <div class="section-label">02 / Browser Extension</div>
+      <div class="product-grid">
+        <div class="product-copy">
+          <p class="eyebrow">Quieter YouTube</p>
+          <h2 id="youtube-title">Mono for YouTube</h2>
+          <p>
+            A lightweight browser extension that removes recommendations, visual clutter, and dark patterns from YouTube using CSS. It keeps the player, search, description, read-only comments, and account controls.
+          </p>
+          <ul class="feature-list">
+            <li>Removes recommendations and other attention traps.</li>
+            <li>Keeps the video player, search, description, and comments.</li>
+            <li>Runs quietly without tracking you or adding extra clutter.</li>
+          </ul>
+          <div class="store-links product-download" aria-label="Browser install links">
+            <a class="download-link" href="https://chromewebstore.google.com/detail/focus-for-youtube/nppiofogichmlkadpbpkpojpidedifeh">Install for Chrome</a>
+            <a class="download-link" href="https://addons.mozilla.org/en-US/firefox/addon/mono-extension/">Install for Firefox</a>
+          </div>
+        </div>
+        <figure class="product-visual">
+          <img src="art/images/splash2.png" alt="Mono for YouTube extension preview with a simplified YouTube interface" width="1600" height="1000" loading="lazy">
+        </figure>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
