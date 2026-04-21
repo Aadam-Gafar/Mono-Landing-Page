@@ -7,7 +7,7 @@
   --color-muted: #5d5d5d;
   --color-line: #d8d8d8;
   --color-bg: #ffffff;
-  --color-bg-soft: #f6f5f2;
+  --color-bg-soft: #fbfaf7;
   --color-red: #cd2424;
   --max-width: 1180px;
 }
@@ -23,9 +23,9 @@ body {
   min-height: 100vh;
   margin: 0;
   background:
-    radial-gradient(circle at 1px 1px, rgba(15, 15, 15, 0.055) 1px, transparent 0),
+    radial-gradient(circle at 1px 1px, rgba(15, 15, 15, 0.025) 1px, transparent 1.25px),
     linear-gradient(var(--color-bg-soft), var(--color-bg-soft));
-  background-size: 18px 18px, auto;
+  background-size: 22px 22px, auto;
   color: var(--color-text);
   font-family: "Archivo", Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -157,14 +157,14 @@ h3 {
   width: min(100% - 32px, var(--max-width));
   margin: 0 auto;
   border-top: 1px solid var(--color-line);
-  padding: 42px 0;
+  padding: 18px 0;
 }
 
 .product-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
+  gap: clamp(12px, 2vw, 24px);
 }
 
 .product-grid-visual-first {
@@ -252,7 +252,7 @@ h3 {
   }
 
   .product-section {
-    padding: 36px 0;
+    padding: 18px 0;
   }
 }
 
