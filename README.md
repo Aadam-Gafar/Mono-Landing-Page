@@ -4,8 +4,6 @@
   </a>
 </p>
 
-<h1 align="center">Mono</h1>
-
 <p align="center">
   Distraction-free software for watching, organising, and focusing on video.
 </p>
