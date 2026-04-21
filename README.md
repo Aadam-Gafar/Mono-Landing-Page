@@ -16,7 +16,7 @@
 
 ## What Is Mono?
 
-Mono is a small collection of calm, focused tools for video.
+Mono is a small collection of distraction-free tools for video.
 
 **Mono for Desktop** helps you organise and watch videos stored on your own computer. Build a clean local library, add folders, tags, and descriptions, then search and resume playback - all without touching what's on disk.
 
