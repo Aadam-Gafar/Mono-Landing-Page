@@ -205,6 +205,59 @@ h3 {
   animation-delay: 180ms;
 }
 
+.policy-page {
+  width: min(100% - 32px, 820px);
+  margin: 0 auto;
+  border-top: 1px solid var(--color-line);
+  padding: 22px 0 56px;
+  animation: draw-divider 500ms ease both;
+}
+
+.policy-page h1 {
+  margin-bottom: 12px;
+}
+
+.policy-updated {
+  margin-bottom: 34px;
+  color: var(--color-muted);
+  font-weight: 600;
+}
+
+.policy-section {
+  border-top: 1px solid var(--color-line);
+  padding: 22px 0 0;
+  animation: enter-soft 560ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.policy-section + .policy-section {
+  margin-top: 22px;
+}
+
+.policy-section h2 {
+  margin-bottom: 12px;
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.policy-section p {
+  color: var(--color-muted);
+}
+
+.policy-list {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding-left: 20px;
+  color: var(--color-muted);
+}
+
+.policy-list strong {
+  color: var(--color-text);
+}
+
+.policy-contact {
+  margin-top: 8px;
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
@@ -282,14 +335,23 @@ h3 {
   margin: 0;
 }
 
-.site-footer a {
+.footer-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-muted);
+}
+
+.site-footer a,
+.footer-links a {
   color: var(--color-text);
   font-weight: 700;
   text-align: right;
   white-space: nowrap;
 }
 
-.site-footer a:hover {
+.site-footer a:hover,
+.footer-links a:hover {
   color: var(--color-red);
 }
 
@@ -322,7 +384,8 @@ h3 {
 @media (max-width: 560px) {
   .site-header,
   .site-footer,
-  .product-section {
+  .product-section,
+  .policy-page {
     width: min(100% - 24px, var(--max-width));
   }
 
@@ -335,7 +398,8 @@ h3 {
     flex-direction: column;
   }
 
-  .site-footer a {
+  .site-footer a,
+  .footer-links a {
     text-align: left;
     white-space: normal;
   }
