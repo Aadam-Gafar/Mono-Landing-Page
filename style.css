@@ -384,6 +384,11 @@ h3 {
     grid-row: auto;
   }
 
+  .product-copy {
+    max-width: none;
+    width: 100%;
+  }
+
   .product-section {
     padding: 18px 0;
   }
