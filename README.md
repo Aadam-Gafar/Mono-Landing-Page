@@ -29,6 +29,7 @@ Mono is a small collection of distraction-free tools for video.
 | 🖥️ Mono for Desktop | [Download for Windows](https://github.com/Aadam-Gafar/Mono-Public-Dist/releases/download/v1.0.0/Mono.Video.Library_1.0.0_x64_en-US.msi) |
 | 🌐 Mono for YouTube (Chrome) | [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/focus-for-youtube/nppiofogichmlkadpbpkpojpidedifeh) |
 | 🦊 Mono for YouTube (Firefox) | [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/mono-extension/) |
+| 🛠️ Mono for YouTube (GitHub) | [Source code](https://github.com/Aadam-Gafar/Mono-for-YouTube) |
 
 ## Mono for Desktop
 
